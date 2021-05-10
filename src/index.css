@@ -11,3 +11,18 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.board {
+  border: 1px solid black;
+  height: 30.4rem;
+  width: 30.4rem;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.square {
+  width: 10rem;
+  height: 10rem;
+  border: 1px solid black;
+}
