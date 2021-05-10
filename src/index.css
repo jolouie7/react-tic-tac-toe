@@ -26,3 +26,8 @@ code {
   height: 10rem;
   border: 1px solid black;
 }
+
+.square:hover {
+  cursor: pointer;
+  background-color: darkgrey;
+}
