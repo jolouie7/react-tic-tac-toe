@@ -1,19 +1,14 @@
+import { useState } from 'react';
 import './App.css';
 
 function App() {
+  const [board, setBoard] = useState(["", "", "", "", "", "", "", "", ""]);
+
   return (
     <div className="App">
       <h1>Tic Tac Toe</h1>
       <div className="board">
-        <div class="square"></div>
-        <div class="square"></div>
-        <div class="square"></div>
-        <div class="square"></div>
-        <div class="square"></div>
-        <div class="square"></div>
-        <div class="square"></div>
-        <div class="square"></div>
-        <div class="square"></div>
+        {board.map(square => <div class="square">{square}</div>)}
       </div>
     </div>
   );
